@@ -1,0 +1,30 @@
+EN EXCLUSIVA · Web lista para Hostinger
+========================================
+
+CÓMO SUBIRLA
+1. Entra en hPanel > Sitios web > Administrar > Administrador de archivos.
+2. Abre la carpeta public_html (borra el index de ejemplo de Hostinger si existe).
+3. Sube el CONTENIDO de la carpeta public_html de este ZIP:
+   index.html · .htaccess · robots.txt · favicon.png
+   (.htaccess es un archivo oculto: activa "mostrar archivos ocultos" si no lo ves).
+4. Activa el SSL gratuito en hPanel > Seguridad > SSL antes de abrir la web,
+   porque .htaccess redirige todo a https.
+
+QUÉ INCLUYE
+- index.html: la web completa en un solo archivo (textos, estilos, tipografías,
+  logos e imágenes ya dentro). Inicio, Real Estate con la rueda interactiva y el
+  simulador de oportunidad, Business con Business Desk multidispositivo,
+  contacto, aviso legal, privacidad y cookies.
+
+ANTES DE PUBLICAR
+- Imágenes de terceros: las fotos de dispositivos, WhatsApp, ordenador, llamadas
+  y calendario (este último con marca de agua Unsplash+) necesitan licencia o
+  sustituirse por imágenes propias. Logos de Inmovilla, Idealista, Fotocasa y
+  Habitaclia: se muestran como ejemplo, con nota de titularidad.
+- Analítica: Google Tag Manager está desactivado. Cuando tengas el ID (GTM-XXXXXXX),
+  hay que ponerlo en CONFIG.gtmId dentro de index.html; entonces aparecerá el
+  banner de cookies automáticamente.
+- Formulario de contacto: ahora mismo, al enviar, abre el correo del visitante con el
+  mensaje ya escrito para mmirandacomercial26@gmail.com. Si quieres que se envíe
+  directamente sin abrir el correo, hay que poner la dirección de un servicio de
+  formularios (Formspree, Getform...) en CONFIG.formEndpoint dentro de index.html.
